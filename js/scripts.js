@@ -52,17 +52,23 @@ loadJSON(function(response) {
 
 $(document).ready(function() {
     $('#cartview').hide();
-    $(".innerbox, .addtocart").hover(function() {
-        $(this).css("border", "#0f08c9 solid 2px");
-        }, function() {
-        $(this).css("border", "#c9c9c9 solid 2px");
-    });
     
     $('#cartbutton').click(function() {
         $('#cartview').show();
+        $('#cartbutton').addClass('selectedbutton');
+        $('#shopbutton').removeClass('selectedbutton');
     });
     
     $('#shopbutton').click(function() {
         $('#cartview').hide();
+        $('#shopbutton').addClass('selectedbutton');
+        $('#cartbutton').removeClass('selectedbutton');
+    });
+    
+    $('.innerbox, .addtocart').hover(function() {
+        $(this).css('border', '#0f08c9 solid 2px');
+    }, 
+    function() {
+        $(this).css('border', '#c9c9c9 solid 2px');
     });
 });

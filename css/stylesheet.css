@@ -43,7 +43,7 @@ header {
     cursor: pointer;
 }
 
-#shopbutton {
+.selectedbutton {
     text-decoration: underline;
 }
 
