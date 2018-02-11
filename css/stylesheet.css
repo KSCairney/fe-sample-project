@@ -114,3 +114,16 @@ header {
     margin: 10px 0px 20px 0px;
     padding: 5px 25px;
 }
+
+/* cartview */
+#cartview {
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    display: block;
+    opacity: 0.8;
+}

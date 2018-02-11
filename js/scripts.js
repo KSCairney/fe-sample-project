@@ -39,13 +39,30 @@ loadJSON(function(response) {
       innerdiv.appendChild(price);
       price.innerHTML="$" + (productdata[number].price/100).toFixed(2);
       innerdiv.appendChild(cart);
-    }
+    };
     
     var loadup = function() {
       for (var z = 0; z < productdata.length; z++) {
         forsale(z);
       }
-    }
+    };
     
     loadup();
+});
+
+$(document).ready(function() {
+    $('#cartview').hide();
+    $(".innerbox, .addtocart").hover(function() {
+        $(this).css("border", "#0f08c9 solid 2px");
+        }, function() {
+        $(this).css("border", "#c9c9c9 solid 2px");
+    });
+    
+    $('#cartbutton').click(function() {
+        $('#cartview').show();
+    });
+    
+    $('#shopbutton').click(function() {
+        $('#cartview').hide();
+    });
 });
