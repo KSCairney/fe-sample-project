@@ -17,6 +17,8 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 20;
 }
 
 .titletext {
@@ -73,6 +75,7 @@ header {
 .subtitletext {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
+    padding-top: 50px;
 }
 
 /* Products */
@@ -82,21 +85,32 @@ header {
 }
 
 .innerbox {
-    
+    width: 100%;
+    margin: 5px 5px 15px 5px;
+    text-align: center;
+    border: #c9c9c9 solid 2px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px 0px #c9c9c9, 0px 2px 2px 0px #ebebeb;
 }
 
 .itemphoto {
-    
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
 
 .itemname {
-    
+    font-size: 1.1em;
 }
 
 .itemprice {
-    
+    font-size: 1.2em;
 }
 
 .addtocart {
-    
+    background-color: #ffffff;
+    border: #c9c9c9 solid 2px;
+    border-radius: 3px;
+    margin: 10px 0px 20px 0px;
+    padding: 5px 25px;
 }
