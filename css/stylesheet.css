@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #545454;
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* header */
+header {
+    background-color: #0f08c9;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titletext {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.titleobj {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.headbutton {
+    color: #ffffff;
+    font-weight: 400;
+    margin: auto 10px;
+    font-family:'Lato', sans-serif;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#shopbutton {
+    text-decoration: underline;
+}
+
+.righthead {
+    align-items: right;
+    padding-top: 15px;
+}
+
+.leftspacer {
+    padding-left: 20px;
+}
+
+.rightspacer {
+    padding-right: 20px;
+}
+
+#cartcounter {
+    background-color: #ffffff;
+    color: #0f08c9;
+    font-weight: bold;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 1.5em;
+    width: 35px;
+}
