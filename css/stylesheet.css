@@ -68,3 +68,35 @@ header {
     height: 1.5em;
     width: 35px;
 }
+
+/* Subtitle */
+.subtitletext {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+/* Products */
+.productbox {
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.innerbox {
+    
+}
+
+.itemphoto {
+    
+}
+
+.itemname {
+    
+}
+
+.itemprice {
+    
+}
+
+.addtocart {
+    
+}
