@@ -127,3 +127,7 @@ header {
     display: block;
     opacity: 0.8;
 }
+
+.highlight {
+    border: #0f08c9 solid 2px;
+}
